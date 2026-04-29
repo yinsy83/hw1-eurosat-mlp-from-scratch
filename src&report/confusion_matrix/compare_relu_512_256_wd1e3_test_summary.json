@@ -1,0 +1,146 @@
+{
+  "run_name": "compare_relu_512_256_wd1e3",
+  "test_accuracy": 0.6613978760187701,
+  "test_loss": 0.964052795627789,
+  "checkpoint": "outputs/checkpoints/compare_relu_512_256_wd1e3_best.npz",
+  "confusion_matrix": [
+    [
+      299,
+      2,
+      17,
+      27,
+      8,
+      6,
+      62,
+      6,
+      19,
+      3
+    ],
+    [
+      0,
+      404,
+      10,
+      0,
+      0,
+      8,
+      0,
+      0,
+      2,
+      26
+    ],
+    [
+      34,
+      4,
+      206,
+      28,
+      14,
+      5,
+      88,
+      46,
+      21,
+      4
+    ],
+    [
+      46,
+      2,
+      15,
+      142,
+      19,
+      17,
+      26,
+      33,
+      71,
+      4
+    ],
+    [
+      3,
+      0,
+      4,
+      16,
+      302,
+      0,
+      5,
+      43,
+      2,
+      0
+    ],
+    [
+      12,
+      34,
+      21,
+      9,
+      0,
+      176,
+      10,
+      2,
+      32,
+      4
+    ],
+    [
+      45,
+      1,
+      28,
+      28,
+      3,
+      11,
+      233,
+      19,
+      7,
+      0
+    ],
+    [
+      7,
+      0,
+      14,
+      45,
+      28,
+      0,
+      38,
+      300,
+      18,
+      0
+    ],
+    [
+      20,
+      4,
+      7,
+      41,
+      8,
+      7,
+      8,
+      8,
+      262,
+      10
+    ],
+    [
+      2,
+      56,
+      3,
+      1,
+      1,
+      8,
+      3,
+      9,
+      13,
+      354
+    ]
+  ],
+  "class_names": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "artifacts": {
+    "confusion_matrix": "outputs\\confusion_matrix\\compare_relu_512_256_wd1e3_test_cm.png",
+    "per_class_accuracy": "outputs\\confusion_matrix\\compare_relu_512_256_wd1e3_per_class_acc.png",
+    "first_layer_weights": "outputs\\weight_viz\\compare_relu_512_256_wd1e3_first_layer_weights.png",
+    "error_cases": "outputs\\error_cases\\compare_relu_512_256_wd1e3_error_cases.png"
+  }
+}
