@@ -1,0 +1,122 @@
+{
+  "dataset_root": "EuroSAT_RGB",
+  "results": [
+    {
+      "trial_id": 6,
+      "activation": "relu",
+      "hidden_dims": [
+        512,
+        256
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.001,
+      "best_val_accuracy": 0.6105211163250185,
+      "best_epoch": 3,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial06_relu_h512-256_lr0.01_wd0.001_best.npz"
+    },
+    {
+      "trial_id": 2,
+      "activation": "relu",
+      "hidden_dims": [
+        512,
+        256
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "best_val_accuracy": 0.5991602864904915,
+      "best_epoch": 4,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial02_relu_h512-256_lr0.01_wd0.0001_best.npz"
+    },
+    {
+      "trial_id": 1,
+      "activation": "relu",
+      "hidden_dims": [
+        256,
+        128
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "best_val_accuracy": 0.5944677698197086,
+      "best_epoch": 3,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial01_relu_h256-128_lr0.01_wd0.0001_best.npz"
+    },
+    {
+      "trial_id": 5,
+      "activation": "relu",
+      "hidden_dims": [
+        256,
+        128
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.001,
+      "best_val_accuracy": 0.5873055075327241,
+      "best_epoch": 3,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial05_relu_h256-128_lr0.01_wd0.001_best.npz"
+    },
+    {
+      "trial_id": 4,
+      "activation": "tanh",
+      "hidden_dims": [
+        512,
+        256
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "best_val_accuracy": 0.5623610768090886,
+      "best_epoch": 2,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial04_tanh_h512-256_lr0.01_wd0.0001_best.npz"
+    },
+    {
+      "trial_id": 8,
+      "activation": "tanh",
+      "hidden_dims": [
+        512,
+        256
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.001,
+      "best_val_accuracy": 0.5621141022474685,
+      "best_epoch": 2,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial08_tanh_h512-256_lr0.01_wd0.001_best.npz"
+    },
+    {
+      "trial_id": 3,
+      "activation": "tanh",
+      "hidden_dims": [
+        256,
+        128
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "best_val_accuracy": 0.5569276364534453,
+      "best_epoch": 2,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial03_tanh_h256-128_lr0.01_wd0.0001_best.npz"
+    },
+    {
+      "trial_id": 7,
+      "activation": "tanh",
+      "hidden_dims": [
+        256,
+        128
+      ],
+      "lr": 0.01,
+      "weight_decay": 0.001,
+      "best_val_accuracy": 0.5554457890837243,
+      "best_epoch": 2,
+      "checkpoint_path": "outputs\\checkpoints\\search_trial07_tanh_h256-128_lr0.01_wd0.001_best.npz"
+    }
+  ],
+  "best_result": {
+    "trial_id": 6,
+    "activation": "relu",
+    "hidden_dims": [
+      512,
+      256
+    ],
+    "lr": 0.01,
+    "weight_decay": 0.001,
+    "best_val_accuracy": 0.6105211163250185,
+    "best_epoch": 3,
+    "checkpoint_path": "outputs\\checkpoints\\search_trial06_relu_h512-256_lr0.01_wd0.001_best.npz"
+  }
+}
