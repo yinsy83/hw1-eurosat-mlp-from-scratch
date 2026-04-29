@@ -1,0 +1,43 @@
+{
+  "run_name": "smoke_test",
+  "history": {
+    "train_loss": [
+      15.446376310076033,
+      18.123802375793456
+    ],
+    "val_loss": [
+      19.90991973876953,
+      9.058314323425293
+    ],
+    "val_accuracy": [
+      0.16666666666666666,
+      0.1
+    ],
+    "lr": [
+      0.05,
+      0.05
+    ]
+  },
+  "best_val_accuracy": 0.16666666666666666,
+  "best_epoch": 1,
+  "config": {
+    "dataset_root": "EuroSAT_RGB",
+    "output_root": "outputs",
+    "hidden_dims": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "epochs": 2,
+    "batch_size": 32,
+    "lr": 0.05,
+    "weight_decay": 0.0001,
+    "lr_decay_gamma": 0.5,
+    "lr_decay_step": 2,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "seed": 42,
+    "sample_limit_per_class": 20,
+    "run_name": "smoke_test"
+  }
+}

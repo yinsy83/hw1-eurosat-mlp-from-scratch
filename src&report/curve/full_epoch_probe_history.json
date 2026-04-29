@@ -1,0 +1,39 @@
+{
+  "run_name": "full_epoch_probe",
+  "history": {
+    "train_loss": [
+      2.963996714871451
+    ],
+    "val_loss": [
+      2.1544260521175302
+    ],
+    "val_accuracy": [
+      0.17263521857248704
+    ],
+    "lr": [
+      0.03
+    ]
+  },
+  "best_val_accuracy": 0.17263521857248704,
+  "best_epoch": 1,
+  "config": {
+    "dataset_root": "EuroSAT_RGB",
+    "output_root": "outputs",
+    "hidden_dims": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "epochs": 1,
+    "batch_size": 128,
+    "lr": 0.03,
+    "weight_decay": 0.0001,
+    "lr_decay_gamma": 0.5,
+    "lr_decay_step": 5,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "seed": 42,
+    "sample_limit_per_class": null,
+    "run_name": "full_epoch_probe"
+  }
+}

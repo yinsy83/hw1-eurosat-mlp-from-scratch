@@ -1,0 +1,39 @@
+{
+  "run_name": "stable_probe_256_128",
+  "history": {
+    "train_loss": [
+      1.5772275352165148
+    ],
+    "val_loss": [
+      1.4332358075766305
+    ],
+    "val_accuracy": [
+      0.4769078784885157
+    ],
+    "lr": [
+      0.01
+    ]
+  },
+  "best_val_accuracy": 0.4769078784885157,
+  "best_epoch": 1,
+  "config": {
+    "dataset_root": "EuroSAT_RGB",
+    "output_root": "outputs",
+    "hidden_dims": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "epochs": 1,
+    "batch_size": 64,
+    "lr": 0.01,
+    "weight_decay": 0.0001,
+    "lr_decay_gamma": 0.5,
+    "lr_decay_step": 6,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "seed": 42,
+    "sample_limit_per_class": null,
+    "run_name": "stable_probe_256_128"
+  }
+}
